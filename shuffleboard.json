@@ -227,7 +227,7 @@
       }
     },
     {
-      "title": "git/Swerve",
+      "title": "Swerve",
       "autoPopulate": false,
       "autoPopulatePrefix": "",
       "widgetPane": {
@@ -417,25 +417,6 @@
               "_title": "SmartDashboard/drive.rb.home_encoder",
               "_glyph": 148,
               "_showGlyph": false
-            }
-          },
-          "9,3": {
-            "size": [
-              7,
-              3
-            ],
-            "content": {
-              "_type": "Graph",
-              "_source0": "network_table:///SmartDashboard/drive.lb.drive.power",
-              "_title": "SmartDashboard/drive.lb.drive.power",
-              "_glyph": 148,
-              "_showGlyph": false,
-              "Graph/Visible time": 30.0,
-              "Graph/X-axis auto scrolling": true,
-              "Y-axis/Automatic bounds": true,
-              "Y-axis/Upper bound": 1.0,
-              "Y-axis/Lower bound": -1.0,
-              "Y-axis/Unit": "ul"
             }
           }
         }
@@ -826,48 +807,7 @@
         "vgap": 16.0,
         "titleType": 1,
         "tiles": {
-          "3,0": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/Elevate.current",
-              "_title": "/SmartDashboard/Elevate.current",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
-          "3,1": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/Extension.current",
-              "_title": "/SmartDashboard/Extension.current",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
-          "4,0": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Boolean Box",
-              "_source0": "network_table:///SmartDashboard/Elevate.calibrated",
-              "_title": "SmartDashboard/Elevate.calibrated",
-              "_glyph": 148,
-              "_showGlyph": false,
-              "Colors/Color when true": "#7CFC00FF",
-              "Colors/Color when false": "#8B0000FF"
-            }
-          },
-          "4,1": {
+          "1,1": {
             "size": [
               1,
               1
@@ -882,7 +822,7 @@
               "Colors/Color when false": "#8B0000FF"
             }
           },
-          "4,2": {
+          "1,2": {
             "size": [
               1,
               1
@@ -897,20 +837,7 @@
               "Colors/Color when false": "#8B0000FF"
             }
           },
-          "5,0": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/Elevate.requestedHeight",
-              "_title": "/SmartDashboard/Elevate.requestedHeight",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
-          "5,1": {
+          "4,1": {
             "size": [
               1,
               1
@@ -919,32 +846,6 @@
               "_type": "Text View",
               "_source0": "network_table:///SmartDashboard/Extension.requestedLength",
               "_title": "/SmartDashboard/Extension.requestedLength",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
-          "5,2": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/Pitch.requestedHeight",
-              "_title": "SmartDashboard/Pitch.requestedHeight",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
-          "6,0": {
-            "size": [
-              1,
-              1
-            ],
-            "content": {
-              "_type": "Text View",
-              "_source0": "network_table:///SmartDashboard/Elevate.offsetPosition",
-              "_title": "SmartDashboard/Elevate.offsetPosition",
               "_glyph": 148,
               "_showGlyph": false
             }
@@ -1062,6 +963,123 @@
               "_type": "Command",
               "_source0": "network_table:///SmartDashboard/ElevateHome",
               "_title": "SmartDashboard/ElevateHome",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Extension.motor_current",
+              "_title": "SmartDashboard/Extension.motor_current",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Pitch.motor_current",
+              "_title": "SmartDashboard/Pitch.motor_current",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Pitch.requestedPitch",
+              "_title": "SmartDashboard/Pitch.requestedPitch",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Pitch.clampPitch",
+              "_title": "SmartDashboard/Pitch.clampPitch",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Elevate.motor_current",
+              "_title": "SmartDashboard/Elevate.motor_current",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Elevate.requestedElevation",
+              "_title": "SmartDashboard/Elevate.requestedElevation",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Elevate.currentPosition",
+              "_title": "SmartDashboard/Elevate.currentPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Extension.position",
+              "_title": "SmartDashboard/Extension.position",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Pitch.power",
+              "_title": "SmartDashboard/Pitch.power",
               "_glyph": 148,
               "_showGlyph": false
             }
