@@ -1864,15 +1864,41 @@
               "_glyph": 148,
               "_showGlyph": false
             }
+          },
+          "6,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/Auto Level No Counter",
+              "_title": "SmartDashboard/Auto Level No Counter",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "8,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/Backwards Auto Level No Counter",
+              "_title": "SmartDashboard/Backwards Auto Level No Counter",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
           }
         }
       }
     }
   ],
   "windowGeometry": {
-    "x": -7.199999809265137,
-    "y": -7.199999809265137,
-    "width": 1550.4000244140625,
-    "height": 838.4000244140625
+    "x": -5.599999904632568,
+    "y": 0.800000011920929,
+    "width": 1547.199951171875,
+    "height": 828.7999877929688
   }
 }
