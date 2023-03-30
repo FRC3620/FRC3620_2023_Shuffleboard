@@ -648,9 +648,9 @@
               "_showGlyph": false
             }
           },
-          "6,1": {
+          "6,4": {
             "size": [
-              1,
+              3,
               1
             ],
             "content": {
@@ -661,9 +661,9 @@
               "_showGlyph": false
             }
           },
-          "6,2": {
+          "6,5": {
             "size": [
-              1,
+              3,
               1
             ],
             "content": {
@@ -726,9 +726,9 @@
               "_showGlyph": false
             }
           },
-          "9,1": {
+          "9,4": {
             "size": [
-              1,
+              3,
               1
             ],
             "content": {
@@ -739,9 +739,9 @@
               "_showGlyph": false
             }
           },
-          "9,2": {
+          "9,5": {
             "size": [
-              1,
+              3,
               1
             ],
             "content": {
@@ -957,6 +957,71 @@
               "_type": "Text View",
               "_source0": "network_table:///SmartDashboard/camera Y",
               "_title": "SmartDashboard/camera Y",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "8,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Translated X",
+              "_title": "/SmartDashboard/Translated X",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "8,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Translated Y",
+              "_title": "/SmartDashboard/Translated Y",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/whereami.closest tag id",
+              "_title": "/SmartDashboard/whereami.closest tag id",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/whereami.closest tag distance x",
+              "_title": "/SmartDashboard/whereami.closest tag distance x",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/whereami.closest tag distance y",
+              "_title": "/SmartDashboard/whereami.closest tag distance y",
               "_glyph": 148,
               "_showGlyph": false
             }
@@ -1965,6 +2030,58 @@
               "_type": "Command",
               "_source0": "network_table:///SmartDashboard/RecalibratePitch",
               "_title": "SmartDashboard/RecalibratePitch",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "8,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/BackwardsFloorPickupLocation",
+              "_title": "SmartDashboard/BackwardsFloorPickupLocation",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/odometry.x",
+              "_title": "SmartDashboard/odometry.x",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/odometry.y",
+              "_title": "SmartDashboard/odometry.y",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/navx.heading_corrected",
+              "_title": "SmartDashboard/navx.heading_corrected",
               "_glyph": 148,
               "_showGlyph": false
             }
