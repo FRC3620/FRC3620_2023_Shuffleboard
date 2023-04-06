@@ -199,6 +199,17 @@
                   "_glyph": 148,
                   "_showGlyph": false,
                   "Visuals/Show voltage and current values": true
+                },
+                {
+                  "_type": "3-Axis Accelerometer",
+                  "_source0": "network_table:///LiveWindow/Ungrouped/BuiltInAccel[0]",
+                  "_title": "BuiltInAccel[0]",
+                  "_glyph": 148,
+                  "_showGlyph": false,
+                  "Accelerometer/Range": "k16G",
+                  "Visuals/Show value": true,
+                  "Visuals/Precision": 2,
+                  "Visuals/Show tick marks": false
                 }
               ]
             }
@@ -565,6 +576,19 @@
               "_type": "Text View",
               "_source0": "network_table:///LiveWindow/DriveSubsystem/Spin PID/setpoint",
               "_title": "DriveSubsystem/Spin PID/setpoint",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "18,8": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///LiveWindow/CannonSubsystem/elevate2/Value",
+              "_title": "CannonSubsystem/elevate2/Value",
               "_glyph": 148,
               "_showGlyph": false
             }
@@ -1995,32 +2019,6 @@
               "_showGlyph": false
             }
           },
-          "6,4": {
-            "size": [
-              2,
-              1
-            ],
-            "content": {
-              "_type": "Command",
-              "_source0": "network_table:///SmartDashboard/Auto Level No Counter",
-              "_title": "SmartDashboard/Auto Level No Counter",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
-          "8,4": {
-            "size": [
-              2,
-              1
-            ],
-            "content": {
-              "_type": "Command",
-              "_source0": "network_table:///SmartDashboard/Backwards Auto Level No Counter",
-              "_title": "SmartDashboard/Backwards Auto Level No Counter",
-              "_glyph": 148,
-              "_showGlyph": false
-            }
-          },
           "4,0": {
             "size": [
               1,
@@ -2047,7 +2045,7 @@
               "_showGlyph": false
             }
           },
-          "2,3": {
+          "0,4": {
             "size": [
               1,
               1
@@ -2060,7 +2058,7 @@
               "_showGlyph": false
             }
           },
-          "3,3": {
+          "1,4": {
             "size": [
               1,
               1
@@ -2073,7 +2071,7 @@
               "_showGlyph": false
             }
           },
-          "4,3": {
+          "2,4": {
             "size": [
               1,
               1
@@ -2082,6 +2080,45 @@
               "_type": "Text View",
               "_source0": "network_table:///SmartDashboard/navx.heading_corrected",
               "_title": "SmartDashboard/navx.heading_corrected",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/AutoAlignToChute",
+              "_title": "SmartDashboard/AutoAlignToChute",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Elevate.motor_current",
+              "_title": "SmartDashboard/Elevate.motor_current",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Elevate2.motor_current",
+              "_title": "SmartDashboard/Elevate2.motor_current",
               "_glyph": 148,
               "_showGlyph": false
             }
@@ -2295,6 +2332,81 @@
               "_title": "SmartDashboard/Pitch.clampPitch",
               "_glyph": 148,
               "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Tab 9",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "3,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Graph",
+              "_source0": "network_table:///SmartDashboard/drive.spin_power",
+              "_title": "SmartDashboard/drive.spin_power",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Graph/Visible time": 30.0,
+              "Graph/X-axis auto scrolling": true,
+              "Y-axis/Automatic bounds": true,
+              "Y-axis/Upper bound": 1.0,
+              "Y-axis/Lower bound": -1.0,
+              "Y-axis/Unit": "ul",
+              "Visible data/SmartDashboard/drive.spin_power": true
+            }
+          },
+          "3,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Graph",
+              "_source0": "network_table:///SmartDashboard/navx.heading_corrected",
+              "_title": "SmartDashboard/navx.heading_corrected",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Graph/Visible time": 30.0,
+              "Graph/X-axis auto scrolling": true,
+              "Y-axis/Automatic bounds": true,
+              "Y-axis/Upper bound": 1.0,
+              "Y-axis/Lower bound": -1.0,
+              "Y-axis/Unit": "ul",
+              "Visible data/SmartDashboard/navx.heading_corrected": true
+            }
+          },
+          "5,0": {
+            "size": [
+              5,
+              4
+            ],
+            "content": {
+              "_type": "Camera Stream",
+              "_source0": "camera_server://photonvision_Port_1181_MJPEG_Server",
+              "_title": "photonvision_Port_1181_MJPEG_Server",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Crosshair/Show crosshair": true,
+              "Crosshair/Crosshair color": "#FFFFFFFF",
+              "Controls/Show controls": true,
+              "Controls/Rotation": "NONE",
+              "compression": -1.0,
+              "fps": -1,
+              "imageWidth": -1,
+              "imageHeight": -1
             }
           }
         }
